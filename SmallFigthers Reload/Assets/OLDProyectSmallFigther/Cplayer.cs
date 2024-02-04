@@ -157,23 +157,24 @@ public class Cplayer : MonoBehaviour
         
 
     }
-    public void MovedPlayer()
-    {
+    //TODO:Fix this!
+    //public void MovedPlayer()
+    //{
         
-        if ((Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.DownArrow)) || (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow)))
-        {
-            this._player._inputVel = Vector3.zero;
-        }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            this._player._inputVel = Vector3.forward * this._player.getmaxVelocity();
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            this._player._inputVel = Vector3.forward * -this._player.getmaxVelocity();
-        }
+    //    //if ((Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.DownArrow)) || (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow)))
+    //    //{
+    //    //    this._player._inputVel = Vector3.zero;
+    //    //}
+    //    //if (Input.GetKey(KeyCode.UpArrow))
+    //    //{
+    //    //    this._player._inputVel = Vector3.forward * this._player.getmaxVelocity();
+    //    //}
+    //    //if (Input.GetKey(KeyCode.DownArrow))
+    //    //{
+    //    //    this._player._inputVel = Vector3.forward * -this._player.getmaxVelocity();
+    //    //}
         
-    }
+    //}
         private void FixedUpdate()
     {
         this.SetHealthUI();

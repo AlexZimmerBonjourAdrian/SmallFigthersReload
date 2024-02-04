@@ -30,7 +30,7 @@ public class CFoo : MonoBehaviour
     private void SpawnPlayer()
     {
         Debug.Log("Entra");
-        this._PlayerManager.Spawn(_position.position);
+       // this._PlayerManager.Spawn(_position.position);
        /* for (int i = 0; i < _PlayerManager.getPlayerList().Count; i++)
         {
 
